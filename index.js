@@ -14,7 +14,4 @@ app.use(cors());
 
 app.use('/api/tasks', taskRoutes);
 
-const PORT = 5001;
-app.listen(5001, '0.0.0.0', () => {
-    console.log('Server running on http://0.0.0.0:5000');
-});
+
